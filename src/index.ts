@@ -27,3 +27,4 @@ app.use('/api', routes);
 
 // ✅ Ganti dengan ini:
 export default app;
+module.exports = app;

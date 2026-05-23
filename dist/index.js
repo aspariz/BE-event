@@ -25,3 +25,4 @@ app.use('/api', index_js_1.default);
 // });
 // ✅ Ganti dengan ini:
 exports.default = app;
+module.exports = app;

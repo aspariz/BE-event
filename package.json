@@ -9,8 +9,7 @@
     "db:migrate": "prisma migrate dev --schema src/prisma/schema.prisma",
     "db:push": "prisma db push --schema src/prisma/schema.prisma",
     "db:seed": "ts-node src/prisma/seed.ts",
-    "vercel-build": "npx prisma generate && npm run build",
-    "postinstall": "npx prisma generate"
+    "vercel-build": "npx prisma generate && npm run build"
   },
   "prisma": {
     "schema": "src/prisma/schema.prisma",
